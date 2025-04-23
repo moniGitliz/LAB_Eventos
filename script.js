@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // ✅ Espera a que el DOM esté completamente cargado
+    // Espera a que el DOM esté completamente cargado
   
     const taskInput = document.getElementById("taskInput");
     const addTaskBtn = document.getElementById("addTaskBtn");
