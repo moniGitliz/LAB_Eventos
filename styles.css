@@ -1,0 +1,78 @@
+body {
+  background-color: #f3ecf9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b2062;
+}
+
+h1 {
+  font-weight: bold;
+  color: #6e2c91;
+}
+
+/* Estilo "cuaderno" */
+.cuaderno .list-group-item {
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px dashed #d1bce4;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-left: 10px;
+  color: #6e2c91;
+}
+
+.icon-btn:hover {
+  color: #4b2062;
+}
+
+input.form-control {
+  background-color: #fef9ff;
+  color: #4b2062;
+}
+
+#addTaskBtn {
+  font-size: 1.5rem;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+
+.alert {
+  transition: opacity 0.3s ease-in-out;
+}
+.form-check-input {
+  transform: scale(1.2);
+  cursor: pointer;
+  accent-color: #6e2c91; /* púrpura */
+}
+
+
+.messages-container {
+  height: 0; /* Para que no ocupe espacio */
+}
+
+.messages-container .alert {
+  position:absolute;
+  top: 0; /* Ajusta la distancia desde la barra de tareas */
+  left: 0;
+  z-index: 10; /
+}
